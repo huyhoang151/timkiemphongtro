@@ -1,0 +1,5 @@
+D:\KhoaLuanTotNghiep\APIQLPT\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.GeneratedMSBuildEditorConfig.editorconfig
+D:\KhoaLuanTotNghiep\APIQLPT\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.AssemblyInfoInputs.cache
+D:\KhoaLuanTotNghiep\APIQLPT\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.AssemblyInfo.cs
+D:\KhoaLuanTotNghiep\APIQLPT\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.csproj.CoreCompileInputs.cache
+D:\KhoaLuanTotNghiep\APIQLPT\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.MvcApplicationPartsAssemblyInfo.cache

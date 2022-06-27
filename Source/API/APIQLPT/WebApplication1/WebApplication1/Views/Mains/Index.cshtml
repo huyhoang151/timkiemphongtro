@@ -1,0 +1,64 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <a href="~/api/TblUsers">TblUsers</a><br />
+    <tr>
+        <li>Lọc username theo phone: GetUserNameByPhone/{phone}</li>
+        <li>Lọc user theo Email: GetUserByMail/{mail}</li>
+        <li>Update password: UpdatePassword/{username}/{pass}</li>      
+        
+    </tr>
+        <a href="~/api/TblUserTypes">TblUserTypes</a>
+        <br />
+
+        <a href="~/api/TblRooms">TblRooms</a>
+        <br />
+        <a href="~/api/TblRoomDetails">TblRoomDetails</a>
+        <br />
+        <a href="~/api/TblRoomTypes">TblRoomTypes</a>
+        <br />
+        <a href="~/api/TblNews">TblNews</a>
+        <br />
+    <tr>
+        <li>Lọc theo PostID: GetNewByPostID/{ID}</li>
+    </tr>
+    <a href="~/api/TblPosts">TblPosts</a><br />
+    <tr>
+        <li>Sort theo ngày mới nhất: SortDescByStartDay</li>
+        <li>Sort theo UserName: GetPostByUserName/{userName}</li>
+        <li>Lọc những post có video: filterVideoNotNull</li>
+        <li>Lọc theo RentalTypeID: GetPostByRentalTypeID/{rtId}"</li>
+        <li>Lọc theo userName và StartDay: GetPostidbyUsernameAndStartday/{username}/{startday}</li>
+        <li>Lọc theo status: Getpostbystatus/{status}</li>
+        <li>Lọc theo địa chỉ: GetPostByAddress/{address}</li>
+        <li>Update Status: UpdateStatus/{id}</li>
+    </tr>
+
+    <a href="~/api/TblGuests">TblGuests</a><br />
+    <a href="~/api/TblReceipts">TblReceipts</a><br />
+    <a href="~/api/TblRentalTypes">TblRentalTypes</a><br />
+
+    <a href="~/api/TblScreens">TblScreens</a><br />
+    <a href="~/api/TblStatus">TblStatus</a><br />
+
+    <a href="~/api/TblWaters">TblWaters</a><br />
+    <a href="~/api/TblAuthentications">TblAuthentications</a><br />
+    <a href="~/api/TblElectrics">TblElectrics</a><br />
+
+    <a href="~/api/TblLikes">TblLike</a><br />
+    <tr>
+        <li>Lọc theo userName: GetPostidByUsername/{userName}</li>
+        <li>Lọc theo userName: GetLikeByUsername/{userName}</li>
+    </tr>
+</body>
+</html>
